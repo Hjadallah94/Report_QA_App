@@ -1,0 +1,30 @@
+language: ar
+max_file_mb: 20
+required_sections:
+  - الملخص التنفيذي
+  - المقدمة
+  - المنهجية
+  - النتائج
+  - الاستنتاجات
+  - التوصيات
+disallow_first_person_pronouns: true
+first_person_pronouns:
+  - أنا
+  - نحن
+  - لنا
+  - لي
+  - علينا
+forbidden_phrases: []
+subjective_adjectives: []
+bias_phrases: []
+passive_voice_required:
+  enabled: false   # Passive detection not implemented for Arabic in MVP
+repetition:
+  enabled: true
+  max_per_1000: 30
+  ignore:
+    - سيريسك
+spelling:
+  enabled: false   # Arabic spelling checker disabled in MVP
+style:
+  enforce_passive_tone: false
